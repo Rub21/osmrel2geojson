@@ -1,4 +1,4 @@
-# OpenStreetMap relation --> geojson
+# OpenStreetMap relation to geojson
 
 ## Install
 
