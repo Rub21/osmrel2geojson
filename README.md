@@ -17,5 +17,6 @@ e.g
 
 ```
 osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction
+osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction --restriction=no_u_turn
 
 ```
