@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 
 /* eslint-disable global-require */
 module.exports = {
@@ -7,5 +7,5 @@ module.exports = {
   'relationFeature': require('./relationFeature'),
   'prefixTag': require('./prefixTag'),
   'checkTags': require('./checkTags')
-};
+}
 /* eslint-enable global-require */
