@@ -16,7 +16,7 @@ module.exports = function (node, relation, rol) {
     '@user': node.user,
     '@idrel': relation.props['@id'],
     '@timestamp': node.timestamp_seconds_since_epoch
-  }, node.tags(), prefix('rProp_', relation.props), prefix('rTag_', relation.tags), prefix('rRol_', rol))
+  }, node.tags(), prefix('relation_propertie_', relation.props), prefix('relation_tag_', relation.tags), prefix('relation_role_', rol))
   var feature = {
     type: 'Feature',
     properties: properties,

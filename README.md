@@ -4,6 +4,8 @@
 
 # OpenStreetMap relation to geojson
 
+Convert any OSM relation to geojson, user [geofabrik](http://download.geofabrik.de) data.
+
 ## Install
 
 ```
@@ -20,9 +22,9 @@ osmrel2geojson <pbf File> <out.geojson File> <options>
 e.g
 
 ```
-osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction
-osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction --restriction=no_u_turn
-
+$ osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction 
+$ osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction --restriction=no_u_turn
+$ osmrel2geojson peru-latest.osm.pbf geo.geojson --type=restriction --restriction=*
 ```
 
-we can add many relations properties as we want. 
+We can add many relations properties as you want. 
