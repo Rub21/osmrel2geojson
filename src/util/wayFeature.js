@@ -17,7 +17,7 @@ module.exports = function (way, relation, rol) {
     '@idrel': relation.props['@id'],
     '@nodes_count': way.nodes_count,
     '@timestamp': way.timestamp_seconds_since_epoch
-  }, way.tags(), prefix('rProp_', relation.props), prefix('rTag_', relation.tags), prefix('rRol_', rol))
+  }, way.tags(), prefix('relation_propertie_', relation.props), prefix('relation_tag_', relation.tags), prefix('relation_role_', rol))
   var feature = {
     type: 'Feature',
     properties: properties,
